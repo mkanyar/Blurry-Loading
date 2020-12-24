@@ -9,7 +9,7 @@ body{
     margin:0;
     display:flex;
     align-items:center;
-    justify-items:center;
+    justify-content:center;
     height:100vh;
     overflow: hidden;
 }
@@ -18,10 +18,10 @@ body{
     position:absolute;
     top:0;
     left:0;
-    width: 100vw;
-    height: 100vh;
+    width: calc(100vw +  60px);
+    height: calc(100vh +  60px);
     z-index: -1;
-    filter:blur(0px);
+    filter:blur(30px);
 }
 .loading-text{
     font-size:50px;
